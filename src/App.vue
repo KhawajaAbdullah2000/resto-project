@@ -1,11 +1,18 @@
-<script setup>
+<script >
 import { RouterLink, RouterView } from 'vue-router'
 import Signup from './components/Signup.vue'
-// import HelloWorld from './components/HelloWorld.vue'
+export default{
+    name:'app',
+    components:{
+        Signup
+    },
+}
 </script>
 
 <template>
-<Signup/>
+  <Signup/>
+
+
 
 </template>
 

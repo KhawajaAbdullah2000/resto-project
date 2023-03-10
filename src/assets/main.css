@@ -1,8 +1,12 @@
 @import './base.css';
-.signup {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .signup {
     margin-left: auto;
     margin-right: auto;
     color: red;
     text-align: center;
     font-size: xx-large;
-}
+} */
