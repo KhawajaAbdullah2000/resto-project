@@ -39,12 +39,20 @@ export default {
     console.warn(result);
     if (result.status==201)
     {
-      alert(result.data.email);
+      //alert(result.data.email);
       localStorage.setItem("user-info",JSON.stringify(result.data))
+      this.$router.push({name:'Home'})
     }
 
 
   },
+},
+mounted(){
+  //if a person alreasdy this.Signup, it should not go to signup page again
+  let user=localStorage.getItem("user-info");
+  if(user){
+    this.$router.push({name:'Home'});
+  }
 }
 }
 </script>

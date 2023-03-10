@@ -23,6 +23,18 @@
       "password": "12345",
       "name": "Sohaib",
       "id": 4
+    },
+    {
+      "email": "shayan@test.com",
+      "password": "12345",
+      "name": "shayan",
+      "id": 5
+    },
+    {
+      "email": "rehan@gmail.com",
+      "password": "12345",
+      "name": "rehan",
+      "id": 6
     }
   ]
 }
